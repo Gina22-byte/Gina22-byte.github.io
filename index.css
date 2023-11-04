@@ -1,0 +1,42 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+section {
+  height: 500px;
+  border: solid black 1px;
+
+}
+
+.hero {
+  background: linear-gradient(90deg, rgba(3,2,25,1) 0%, rgba(81,143,76,1) 100%, rgba(0,212,255,1) 100%); /*https://cssgradient.io/*/
+  height: 100vh;
+  font-size: 45px;;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  font-size: 30px;
+}
+
+li {
+  width: 200px;
+  text-decoration: none;
+}
+
+footer {
+  height: 200px;
+}
+
+.hero-text {
+  margin-left: 80px;
+}
