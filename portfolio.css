@@ -2,7 +2,6 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-
 .sub-section-alt {
   display: flex;
   flex-direction: column;
@@ -37,7 +36,6 @@ ul {
   }
 }
 
-
 li {
   text-decoration: none;
 }
@@ -57,20 +55,6 @@ p {
   font-weight: 300;
 }
 
-footer {
-  height: 200px;
-  background-color: #05081c;
-  color: white;
-  display: flex;
-  font-size: 30px;
-  align-items: center;
-  justify-content: center;
-}
-
-#footer {
-  display: inline-flex;
-}
-
 .hero-text {
   margin-left: 80px;
   margin-bottom: 200px;
@@ -83,7 +67,6 @@ footer {
   align-items: center;
 }
 
-
 .hero-button {
   width: 200px;
   height: 60px;
@@ -95,7 +78,6 @@ footer {
   padding-top: 5px;
   margin-top: 20px;
 } 
-
 
 .hero-button:hover {
   background-color: orange;
@@ -150,10 +132,107 @@ a {
   color: white;
 }
 
+
 @media only screen and (max-width: 1000px) {
   .project-container {
       display: flex;
       flex-wrap: wrap;
   }
 }
+
+/* CONTACT FORM */
+
+.last-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blanchedalmond;
+  height: 100vh;
+}
+
+
+.contact-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  background-color: #fff;
+  box-shadow: 5px 5px 30px;
+}
+
+form {
+  margin: 35px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+}
+
+.input-field {
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px ;
+  border: 1px solid #777;
+  border-radius: 14px;
+  outline: none;
+}
+
+input[type="text"]
+{
+    font-size:24px;
+    font-family: 'Poppins';
+}
+
+input[type="email"]
+{
+    font-size:24px;
+    font-family: 'Poppins';
+}
+textarea[type="text"]
+{
+    font-size:24px;
+    font-family: 'Poppins';
+}
+
+.textarea-field {
+  height: 150px;
+  padding-top: 10px; 
+}
+
+.btn {
+  border-radius: 20px ;
+  color: white;
+  margin-top: 18px;
+  padding: 10px;
+  background-color: coral;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  font-size:24px;
+  font-family: 'Poppins';
+}
+
+.btn:hover {
+  color: darkblue;
+
+}
+
+.btn:active {
+  color:yellow ;
+} 
+
+footer {
+  height: 200px;
+  background-color: #05081c;
+  color: white;
+  display: flex;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+#footer {
+  display: inline-flex;
+}
+
 
